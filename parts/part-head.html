@@ -43,5 +43,14 @@
                 </div>
             </nav>
         <div>
+        <script type="text/javascript">
+            $('.head .navbar-toggler').click(function() {
+                if ($('.head #navbarNav').hasClass('show')) {
+                    $('.head nav').css('transform', 'translate(-50%, 0%);');
+                } else {
+                    $('.head nav').css('transform', '');
+                }
+            })
+        </script>
     </body>
 </html>
