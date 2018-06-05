@@ -6,11 +6,38 @@
         <title>首页</title>
     </head>
     <body>
+        <div f-replace="res/bootstrap-4/css/bootstrap.min.css"></div>
+        <div f-replace="res/bootstrap-4/js/bootstrap.min.js"></div>
+        <div f-replace="res/css/g.css"></div>
+        <div f-replace="frags/frag-bg.html .index-bg"></div>
+        <div f-replace="frags/frag-head.html"></div>
+        <div f-replace="frags/frag-foot.html"></div>
+        <!-- body begin -->
+        <div class="body">
+            <style type="text/css">
+                .body {
+                    position: absolute;
+                    width: 100%;
+                    top: 31%;
+                    left: 0;
+                }
+            </style>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="e-title">
+                            <img src="res/img/e-title.png">
+                            <div>聚传研究院</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- body end -->
         <script type="text/javascript" src="res/js/jquery.min.js"></script>
         <script type="text/javascript" src="res/js/f.js"></script>
-        <script type="text/javascript" src="index.js"></script>
-        <div f-replace="res/css/g.css"></div>
-        <div f-replace="parts/part-head.html"></div>
-        <div f-replace="parts/part-foot.html"></div>
+        <script type="text/javascript">
+            $(function() {$.f_boot();});
+        </script>
     </body>
 </html>

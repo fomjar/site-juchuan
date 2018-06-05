@@ -1,3 +1,0 @@
-$(function() {
-    $.f_boot();
-});
