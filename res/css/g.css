@@ -1,6 +1,7 @@
 body {
-    margin: 0;
     position: absolute;
+    width: 100%;
+    margin: 0;
 }
 
 .e-title {

@@ -70,7 +70,7 @@ $.fn.extend({
                     that.prepend($(string));
                     break;
                 }
-                $.f_frag(); // 片段中引入片段
+                $.f_frag(); // 片段中引入片段需再次实施
             });
             break;
         }
