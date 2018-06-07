@@ -9,111 +9,18 @@
         <div f-replace="res/bootstrap-4/css/bootstrap.min.css"></div>
         <div f-replace="res/bootstrap-4/js/bootstrap.min.js"></div>
         <div f-replace="res/css/g.css"></div>
-        <div f-replace="frags/frag-index-bg.html"></div>
-        <!-- body begin -->
-        <div class="body">
-            <style type="text/css">
-                .body {
-                    position: absolute;
-                    width: 100%;
-                    top: 0;
-                    left: 0;
-                }
-                .body >img {
-                    width: 100%;
-                }
-                .body .e-title {
-                    margin: 2rem 0;
-                }
-                .body .col-left {
-                    padding: 0 1rem;
-                }
-                .body .col-right {
-                    padding: 0 2rem;
-                }
-                .body .col-left,
-                .body .col-right >.row {
-                    margin-bottom: 1rem;
-                }
-                .body .col-right >.row >div {
-                    padding: 0;
-                }
-                .body .col-left img,
-                .body .col-right img {
-                    width: 100%;
-                    background: gray;
-                    border: 1px solid gray;
-                }
-                .body .col-right img {
-                    height: 100%;
-                }
-                .body .block-text {
-                    padding: 1rem !important;
-                    background-color: #c7b8a6;
-                    color: #604b3a
-                }
-            </style>
-            <img src="res/img/index-banner.png">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="e-title">
-                            <img src="res/img/e-title.png">
-                            <div>聚传研究院</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-left col-lg-6 col-md-12">
-                        <img src="" style="height: 16rem; display: block;">
-                        <div class="block-text">
-                            <h5 class="text-center">火热招生</h4>
-                            <p>
-                                南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨……
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-right col-lg-6 col-md-12">
-                        <div class="row">
-                            <div class="col-7">
-                                <img src="">
-                            </div>
-                            <div class="col-5 block-text">
-                                <h5 class="text-center">开业喜报</h4>
-                                <p>
-                                    南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨……
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-5 block-text">
-                                <h5 class="text-center">活动展示</h4>
-                                <p>
-                                    南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨……
-                                </p>
-                            </div>
-                            <div class="col-7">
-                                <img src="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-7">
-                                <img src="">
-                            </div>
-                            <div class="col-5 block-text">
-                                <h5 class="text-center">患者案例</h4>
-                                <p>
-                                    南京据传中医传统诊疗技术研究院，通过多年众多中医大师的努力，从各地挖掘出了多种骨……
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- body end -->
-        <div f-replace="frags/frag-head.html"></div>
+
+        <!-- bg begin -->
+        <div f-replace="frags/frag-bg.html .index-bg"></div>
+        <!-- bg end -->
+        <!-- fg & content begin -->
+        <div f-replace="frags/frag-fg-index.html"></div>
         <div f-replace="frags/frag-foot.html"></div>
+        <!-- fg & content end -->
+        <!-- head & float begin -->
+        <div f-replace="frags/frag-head.html"></div>
+        <!-- head & float end -->
+
         <script type="text/javascript" src="res/js/jquery.min.js"></script>
         <script type="text/javascript" src="res/js/f.js"></script>
         <script type="text/javascript">

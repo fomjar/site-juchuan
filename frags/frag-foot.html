@@ -1,37 +1,22 @@
 <html lang="en">
     <head></head>
     <body>
-        <div class="foot">
+        <div class="foot position-relative">
             <style type="text/css">
-                .foot {
-                    position: relative;
-                }
-                .foot >img {
-                    width: 100%;
-                }
                 .foot >div {
-                    position: absolute;
-                    width: 100%;
                     transform: translate(-50%, -50%);
                     top: 50%;
                     left: 50%;
-                    text-align: center;
-                    color: #ddd;
                     font-size: 1.3rem;
                 }
                 .foot >div >div {
-                    display: inline-block;
                     position: relative;
                     top: 1.5rem;
                 }
-                .foot >div >img {
-                    margin-left: 2rem;
-                    max-height: 80%;
-                }
             </style>
-            <img src="res/img/foot-bg.png">
-            <div>
-                <div>
+            <img class="w-100" src="res/img/foot-bg.png">
+            <div class="position-absolute w-100 text-center">
+                <div class="d-inline-block text-light">
                     <p>
                         地址：南京市鼓楼区云南路3号3楼
                     </p>
@@ -39,7 +24,7 @@
                         电话：025-85563998
                     </p>
                 </div>
-                <img src="res/img/qrcode.png">
+                <img class="ml-4" src="res/img/qrcode.png">
             </div>
         </div>
     </body>

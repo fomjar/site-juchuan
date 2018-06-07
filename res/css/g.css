@@ -4,16 +4,29 @@ body {
     margin: 0;
 }
 
-.e-title {
+.bg {
+
+}
+
+.fg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.fg .e-title {
     display: inline-block;
     position: relative;
     font-size: 2rem;
-    color: #ddd;
+    margin: 2rem 0;
 }
-.e-title >div {
+.fg .e-title >div {
     position: absolute;
     width: 100%;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
+
+
