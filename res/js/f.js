@@ -8,7 +8,7 @@ $.extend({
     },
     f_frag  : function() {
         var div_replace = $('[f-replace]');
-        var div_append = $('[f-append]');
+        var div_append  = $('[f-append]');
         var div_prepend = $('[f-prepend]');
         for (var i = 0; i < div_replace.length; i++) $(div_replace[i]).f_frag();
         for (var i = 0; i < div_append.length; i++)  $(div_append[i]).f_frag();
