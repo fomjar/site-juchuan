@@ -18,10 +18,9 @@ body {
 .fg .e-title {
     display: inline-block;
     position: relative;
-    font-size: 1.7rem;
     margin: 3rem 0;
 }
-.fg .e-title >div {
+.fg .e-title >*:last-child {
     position: absolute;
     width: 100%;
     transform: translate(-50%, -50%);
