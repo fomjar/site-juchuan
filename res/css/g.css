@@ -30,13 +30,15 @@ body {
 .fg .e-more {
     position: absolute;
     width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 .fg .e-more img {
-    position: relative;
-    top: 1rem;
+    width: 120px;
 }
 
 
