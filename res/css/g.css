@@ -40,5 +40,8 @@ body {
 .fg .e-more img {
     width: 120px;
 }
+.fg .e-more.e-more-sm img {
+    width: 60px;
+}
 
 
