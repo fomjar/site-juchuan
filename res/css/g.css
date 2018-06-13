@@ -13,12 +13,17 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    color: #604b3a;
+}
+
+.fg section {
+    margin-bottom: 1rem;
 }
 
 .fg .e-title {
     display: inline-block;
     position: relative;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .fg .e-title >*:last-child {
     position: absolute;
