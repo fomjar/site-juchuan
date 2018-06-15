@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>公司简介</title>
+    </head>
+    <body>
+        <div f-replace="res/bootstrap-4/css/bootstrap.min.css"></div>
+        <div f-replace="res/bootstrap-4/js/bootstrap.min.js"></div>
+        <div f-replace="res/css/g.css"></div>
+
+        <!-- bg begin -->
+        <div f-replace="frags/frag-bg.html .gsjj-bg"></div>
+        <!-- bg end -->
+        <!-- fg & content begin -->
+        <div f-replace="frags/frag-fg-gsjj.html"></div>
+        <div f-replace="frags/frag-foot.html"></div>
+        <!-- fg & content end -->
+        <!-- head & float begin -->
+        <div f-replace="frags/frag-head.html"></div>
+        <!-- head & float end -->
+
+        <script type="text/javascript" src="res/js/jquery.min.js"></script>
+        <script type="text/javascript" src="res/js/f.js"></script>
+        <script type="text/javascript">
+            $(function() {$.f_boot();});
+        </script>
+    </body>
+</html>
